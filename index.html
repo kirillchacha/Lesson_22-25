@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 22-25</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Головне</a></li>
+							<li class="menu__item"><a data-google="true" href="https://google.com" class="menu__link active-link">Перше посилання</a></li>
+							<li class="menu__item"><a href="#" class="menu__link active-link2">Друге посилання</a></li>
+							<li class="menu__item"><a href="#" class="menu__link active-link3">Третье посилання</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div data-say-hi="yes" class="page__text">Привіт!</div>
+				<div onclick="scrollToBlock()" data-animation-speed = "1000" data-speed = "1000" class="page__block">Text</div>
+				<div class="page__menu menu-page">
+						<ul class="menu-page__list">
+							<li class="menu-page__item"></li>
+							<li class="menu-page__item remove"></li>
+						</ul>
+				</div>
+				<div class="like"></div>
+				<div class="subscribe"></div>
+				<div class="like subscribe"></div>
+				<div class="mouse"></div>
+				<form class="form" action="#">
+					<div class="form__search search-form">
+						<div class="search-form__line">
+							<input maxlength="50" type="text" placeholder="Пошук" class="search-form__input">
+						</div>
+						<button type="button" class="search-form__button"></button>
+						<div class="search-form__counter">
+							Залишилось
+							<span>50</span>
+							символів
+						</div>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<p class="footer__parahraph">&copy; 2022 kirillchacha</p>
+			</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
